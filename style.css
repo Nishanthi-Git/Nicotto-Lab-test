@@ -3360,7 +3360,7 @@ body.no-scroll {
         top: 0px;
         position: relative;
         transform: scale(2.6);
-        padding-top: 80px;
+        padding-top: 75px;
         margin-bottom: 20px;
     }
     .head-ellipse .scroll-btn{
@@ -3409,8 +3409,8 @@ body.no-scroll {
         justify-content: center;
         z-index: 10;
         position: relative;
-        bottom: 80px;
-        top: 40px;
+        bottom: 0px;
+        top: -90px;
     }
 
 
@@ -3601,7 +3601,8 @@ body.no-scroll {
         align-items: center;
         justify-content: center;
         position: relative;
-        margin-top: 120px;
+        margin-top: -230px;
+        left: 20px;
     }
     
     .tech-background{
@@ -3708,6 +3709,10 @@ body.no-scroll {
         z-index: -1;
         transform: scale(2.6);
     }
+    .partner{
+        height: 100%;
+        min-height: 400px;
+    }
    .rectangle{
         width: 100%;
         height: 270px;
@@ -3792,7 +3797,7 @@ body.no-scroll {
         flex-shrink: 0;
     }
     .news{
-        margin-top: -150px;
+        margin-top: 0px;
     }
     .news-background{
         transform: scale(2.6);
@@ -3964,7 +3969,7 @@ body.no-scroll {
     border-radius: 2px;
     }
     .Publication{
-        margin-top: -150px;
+        margin-top: -350px;
     }
     .publication-heading{
         display: flex;
@@ -4111,7 +4116,7 @@ body.no-scroll {
         text-decoration: none;
     }
     .demonstration{
-        margin-top: -200px;
+        margin-top: -400px;
     }
     .demo-heading{
         gap: 8px;
@@ -4146,7 +4151,7 @@ body.no-scroll {
         gap: 32px;
         transition: transform 0.5s ease;
         scroll-behavior: smooth;
-        margin-left: 5px;
+        margin-left: 40px;
     }
     .demo-container {
         overflow-x: auto;
@@ -4259,7 +4264,7 @@ body.no-scroll {
         border-radius: 50%;
         border: 1px solid #AFB7E2;
         transition: background-color 0.3s;
-        transform: translateY(-30px);
+        margin-top: -550px;
     }
 
     .dot.active {
@@ -4278,6 +4283,7 @@ body.no-scroll {
         background-image: url(img/Union.svg);
         position: relative;
         overflow: hidden;
+        margin-top: -100px;
     }
     .contact-heading{
         display: flex;
@@ -4372,7 +4378,7 @@ body.no-scroll {
         display: flex;
         flex-direction: column;
         position: absolute;
-        margin-top: -100px;
+        margin-top: -300px;
         gap: 57px;
         padding-bottom: 20px;
     }
@@ -4388,6 +4394,7 @@ body.no-scroll {
         -webkit-backdrop-filter: blur(75px);  
         padding-left: 20px;
         padding-top: 20px;
+        margin-top: -20px;
     }
   
     .logo-part{
