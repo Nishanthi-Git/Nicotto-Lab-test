@@ -3693,7 +3693,7 @@ body.no-scroll {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-right: 0px;
+        margin-right: 50px;
     }
     .tech-img img{
         width: 375px;
