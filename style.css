@@ -57,6 +57,7 @@ header{
     background-size: cover;       
     background-repeat: no-repeat; 
     background-position: center;
+    overflow: hidden;
 }
 .head-bar,.head-bar2{
    display: flex;
@@ -484,6 +485,7 @@ header{
 
 .about{
     width: 100%;
+    max-width: 100vw;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -731,6 +733,7 @@ header{
     align-items: center;
     justify-content: center;
     position: relative;
+    overflow: hidden;
 }
  
 .tech-background{
@@ -1878,11 +1881,13 @@ body.no-scroll {
 
 @media (max-width: 360px){
     header{
-        width: 100vw;
+        max-width: 100vw;
+        width: 100%;
         background-image: url(img/Header.svg);
         background-size: cover;       
         background-repeat: no-repeat; 
         background-position: center;
+        overflow: hidden;
     }
     .head-bar{
         display: flex;
@@ -2079,6 +2084,7 @@ body.no-scroll {
     }
 
     .about{
+        max-width: 100vw;
         width: 100%;
         overflow: hidden;
         display: flex;
@@ -2265,6 +2271,7 @@ body.no-scroll {
     }
 
     .Technology{
+        max-width: 100vw;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -2372,6 +2379,7 @@ body.no-scroll {
     .tech-background{
         background: linear-gradient(203deg, #005768 5.95%, #0E1861 48.76%, #0F0031 91.56%);
         filter: blur(100px);
+        max-width: 100vw;
         width: 100%;
         height: 100vh;
         position: absolute;
@@ -2947,6 +2955,7 @@ body.no-scroll {
 
     
     .contact{
+        max-width: 100vw;
         width: 100%;
         height: 100vh;
         margin-top: 50px;
@@ -3043,6 +3052,7 @@ body.no-scroll {
     }
     .footer2{
         display: flex;
+        max-width: 100vw;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -3194,6 +3204,7 @@ body.no-scroll {
 
 @media (min-width: 361px) and (max-width: 479px) {
     header{
+        max-width: 100vw;
         width: 100%;
         height: 100vh;
         background-image: url(img/Header.svg);
@@ -3402,6 +3413,7 @@ body.no-scroll {
     }
 
     .about{
+        max-width: 100vw;
         width: 100%;
         height: 100%;
         overflow: hidden;
@@ -3594,6 +3606,7 @@ body.no-scroll {
     }
 
     .Technology{
+        max-width: 100vw;
         width: 100%;
         height: 100%;
         display: flex;
@@ -3608,6 +3621,7 @@ body.no-scroll {
     .tech-background{
         background: linear-gradient(203deg, #005768 5.95%, #0E1861 48.76%, #0F0031 91.56%);
         filter: blur(100px);
+        max-width: 100vw;
         width: 100%;
         margin-top: 0px;
         top: 500px;
@@ -4278,6 +4292,7 @@ body.no-scroll {
     
     .contact{
         width: 100%;
+        max-width: 100vw;
         height: 100vh;
         margin-top: 50px;
         background-image: url(img/Union.svg);
@@ -4375,6 +4390,7 @@ body.no-scroll {
     .footer2{
         display: flex;
         width: 100%;
+        max-width: 100vw;
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -4522,6 +4538,7 @@ body.no-scroll {
 @media (min-width: 479.5px) and (max-width: 767.5px){
      header{
         width: 100%;
+        max-width: 100vw;
         height: 100vh;
         background-image: url(img/Header.svg);
         background-size: cover;       
@@ -4704,6 +4721,8 @@ body.no-scroll {
 
     .about{
         width: 100%;
+        max-width: 100vw;
+        max-width: 100vw;
         overflow: hidden;
         display: flex;
         justify-content: center;
@@ -4892,6 +4911,7 @@ body.no-scroll {
 
     .Technology{
         width: 100%;
+        max-width: 100vw;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -4904,6 +4924,7 @@ body.no-scroll {
         background: linear-gradient(203deg, #005768 5.95%, #0E1861 48.76%, #0F0031 91.56%);
         filter: blur(100px);
         width: 100%;
+        max-width: 100vw;
         margin-top: 100px;
         position: absolute;
         z-index: -1;
@@ -5572,6 +5593,8 @@ body.no-scroll {
     
     .contact{
         width: 100%;
+        max-width: 100vw;
+        max-width: 100vw;
         height: 100vh;
         margin-top: 50px;
         background-image: url(img/Union.svg);
@@ -5668,6 +5691,7 @@ body.no-scroll {
 footer{
     padding: 0;
     width: 100%;
+    max-width: 100vw;
     display: flex;
     flex-direction: column;
     gap: 130px;
@@ -5826,6 +5850,7 @@ hr{
 @media (min-width: 768px) and (max-width: 1023.5px){
     header{
         width: 100%;
+        max-width: 100vw;
         background-image: url(img/Header.svg);
         background-size: cover;       
         background-repeat: no-repeat; 
@@ -6005,6 +6030,7 @@ hr{
 
    .about{ 
     width: 100%;
+    max-width: 100vw;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -6200,6 +6226,7 @@ hr{
 }
 .Technology{
     width: 100%;
+    max-width: 100vw;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -6388,6 +6415,7 @@ hr{
 
 .news{
     width: 100%;
+    max-width: 100vw;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -6593,6 +6621,7 @@ hr{
 
 .Publication{
     width: 100%;
+    max-width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -6944,6 +6973,7 @@ hr{
     
     .contact{
         width: 100%;
+        max-width: 100vw;
         height: 80%;
         margin-top: 0px;
         background-image: url(img/Union.svg);
@@ -7039,6 +7069,7 @@ hr{
 footer{
     padding: 0;
     width: 100%;
+    max-width: 100vw;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -7320,6 +7351,7 @@ header{
 
 .about{
     width: 100%;
+    max-width: 100vw;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -7461,6 +7493,7 @@ header{
 
 .Technology{
     width: 100%;
+    max-width: 100vw;
     height: 100%;
     margin: 0px;
 }
@@ -7491,6 +7524,7 @@ footer{
     margin: -100px 100px 50px;
     padding: 0;
     width: 100%;
+    max-width: 100vw;
     display: flex;
     flex-direction: column;
     gap: 40px;
