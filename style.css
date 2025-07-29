@@ -4264,7 +4264,7 @@ body.no-scroll {
         border-radius: 50%;
         border: 1px solid #AFB7E2;
         transition: background-color 0.3s;
-        margin-top: -350px;
+        margin-top: -270px;
     }
 
     .dot.active {
@@ -4378,7 +4378,7 @@ body.no-scroll {
         display: flex;
         flex-direction: column;
         position: absolute;
-        margin-top: -300px;
+        margin-top: -200px;
         gap: 57px;
         padding-bottom: 20px;
     }
