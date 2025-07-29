@@ -47,7 +47,7 @@
 body {
   font-family: Afacad;
   background: var(--bg-dark);
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 header{
@@ -3601,7 +3601,7 @@ body.no-scroll {
         align-items: center;
         justify-content: center;
         position: relative;
-        margin-top: -230px;
+        margin-top: -180px;
         left: 20px;
     }
     
@@ -3797,7 +3797,7 @@ body.no-scroll {
         flex-shrink: 0;
     }
     .news{
-        margin-top: 0px;
+        margin-top: 20px;
     }
     .news-background{
         transform: scale(2.6);
@@ -3969,7 +3969,7 @@ body.no-scroll {
     border-radius: 2px;
     }
     .Publication{
-        margin-top: -350px;
+        margin-top: -250px;
     }
     .publication-heading{
         display: flex;
@@ -4116,7 +4116,7 @@ body.no-scroll {
         text-decoration: none;
     }
     .demonstration{
-        margin-top: -400px;
+        margin-top: -300px;
     }
     .demo-heading{
         gap: 8px;
@@ -4264,7 +4264,7 @@ body.no-scroll {
         border-radius: 50%;
         border: 1px solid #AFB7E2;
         transition: background-color 0.3s;
-        margin-top: -550px;
+        margin-top: -350px;
     }
 
     .dot.active {
