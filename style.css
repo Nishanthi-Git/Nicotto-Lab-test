@@ -4360,7 +4360,7 @@ body.no-scroll {
         display: flex;
         flex-direction: column;
         position: absolute;
-        margin-top: -100px;
+        margin-top: -150px;
         gap: 57px;
         padding-bottom: 20px;
     }
