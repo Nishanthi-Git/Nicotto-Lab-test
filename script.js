@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       });
     },
-    { threshold: 0.5 } // Adjust visibility threshold if needed
+    { threshold: 0.1 } // Adjust visibility threshold if needed
   );
 
   sections.forEach(section => {
