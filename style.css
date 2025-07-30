@@ -3194,6 +3194,9 @@ body.no-scroll {
 
 
 @media (min-width: 361px) and (max-width: 479px) {
+    body{
+        overflow: hidden;
+    }
     header{
         width: 100%;
         height: 100vh;
