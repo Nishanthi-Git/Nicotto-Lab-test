@@ -1877,9 +1877,7 @@ body.no-scroll {
 }
 
 @media (max-width: 360px){
-    body{
-        overflow: hidden;
-    }
+   
     header{
         width: 100vw;
         background-image: url(img/Header.svg);
