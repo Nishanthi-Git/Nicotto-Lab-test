@@ -47,7 +47,7 @@
 body {
   font-family: Afacad;
   background: var(--bg-dark);
-  overflow-x: hidden !important;
+  overflow-x: hidden;
 }
 
 header{
@@ -57,7 +57,6 @@ header{
     background-size: cover;       
     background-repeat: no-repeat; 
     background-position: center;
-    overflow: hidden;
 }
 .head-bar,.head-bar2{
    display: flex;
@@ -485,7 +484,6 @@ header{
 
 .about{
     width: 100%;
-    max-width: 100vw;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -733,7 +731,6 @@ header{
     align-items: center;
     justify-content: center;
     position: relative;
-    overflow: hidden;
 }
  
 .tech-background{
@@ -1880,14 +1877,15 @@ body.no-scroll {
 }
 
 @media (max-width: 360px){
+    body{
+        overflow: hidden;
+    }
     header{
-        max-width: 100vw;
-        width: 100%;
+        width: 100vw;
         background-image: url(img/Header.svg);
         background-size: cover;       
         background-repeat: no-repeat; 
         background-position: center;
-        overflow: hidden;
     }
     .head-bar{
         display: flex;
@@ -1929,6 +1927,10 @@ body.no-scroll {
         background: #00021C;
         backdrop-filter: blur(35px);
         -webkit-backdrop-filter: blur(35px); /* for Safari */
+    
+        /* background: rgba(0, 2, 28, 0.4); 
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px); */
         transform: translateY(70px);
         opacity: 1;
     }
@@ -1954,7 +1956,7 @@ body.no-scroll {
     .head-banner{
         width: 100%;
         margin-top: 0;
-        padding-top: -10px;
+        padding-top: 10px;
     }
     .head-banner .head-text2{
         display: flex;
@@ -2013,7 +2015,7 @@ body.no-scroll {
     .head-banner .vector1{
         left: -150px;
         position: absolute;
-        bottom: -85px;
+        bottom: -105px;
         overflow: hidden;
     }
     .head-banner .vector2{
@@ -2031,7 +2033,7 @@ body.no-scroll {
         position: absolute;
         overflow: hidden;
     }
-   .head-ellipse{
+    .head-ellipse{
         display: flex;
         align-items: center;
         justify-content: center;
@@ -2039,16 +2041,14 @@ body.no-scroll {
     }
     .head-ellipse .gradient{
         width: 100%;
-        top: 0px;
+        margin-top: 210px;
         position: relative;
         transform: scale(2.6);
-        padding-top: 60px;
-        margin-bottom: 20px;
     }
     .head-ellipse .scroll-btn{
         position: absolute;
         z-index: 100;
-        top: 105px;
+        top: 145px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -2084,13 +2084,12 @@ body.no-scroll {
     }
 
     .about{
-        max-width: 100vw;
         width: 100%;
         overflow: hidden;
         display: flex;
         justify-content: center;
-        z-index: 10;
-        margin-top: 100px;
+        z-index: 100;
+        margin-top: 10px;
     }
 
 
@@ -2271,7 +2270,6 @@ body.no-scroll {
     }
 
     .Technology{
-        max-width: 100vw;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -2286,9 +2284,8 @@ body.no-scroll {
         background: linear-gradient(203deg, #005768 5.95%, #0E1861 48.76%, #0F0031 91.56%);
         filter: blur(100px);
         width: 100%;
-        margin-top: 0px;
+        margin-top: 300px;
         position: absolute;
-        top: 500px;
         z-index: -1;
         overflow: hidden;
     }
@@ -2379,7 +2376,6 @@ body.no-scroll {
     .tech-background{
         background: linear-gradient(203deg, #005768 5.95%, #0E1861 48.76%, #0F0031 91.56%);
         filter: blur(100px);
-        max-width: 100vw;
         width: 100%;
         height: 100vh;
         position: absolute;
@@ -2955,7 +2951,6 @@ body.no-scroll {
 
     
     .contact{
-        max-width: 100vw;
         width: 100%;
         height: 100vh;
         margin-top: 50px;
@@ -3052,7 +3047,6 @@ body.no-scroll {
     }
     .footer2{
         display: flex;
-        max-width: 100vw;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -3195,16 +3189,12 @@ body.no-scroll {
         line-height: 150%; /* 15px */
         letter-spacing: 0.5px;
     }
-    .head-bar.show-header {
-        transform: translateY(0);
-    }
 
 }
 
 
 @media (min-width: 361px) and (max-width: 479px) {
     header{
-        max-width: 100vw;
         width: 100%;
         height: 100vh;
         background-image: url(img/Header.svg);
@@ -3371,7 +3361,7 @@ body.no-scroll {
         top: 0px;
         position: relative;
         transform: scale(2.6);
-        padding-top: 75px;
+        padding-top: 80px;
         margin-bottom: 20px;
     }
     .head-ellipse .scroll-btn{
@@ -3413,16 +3403,14 @@ body.no-scroll {
     }
 
     .about{
-        max-width: 100vw;
         width: 100%;
-        height: 100%;
         overflow: hidden;
         display: flex;
         justify-content: center;
         z-index: 10;
         position: relative;
         bottom: 0px;
-        top: -90px;
+        height: 100%;
     }
 
 
@@ -3484,7 +3472,7 @@ body.no-scroll {
         gap: 20px;
         align-items: center;
         justify-content: center;
-        margin-top: -350px;
+        margin-top: -40px;
         width: 100%;
     }
     .Bold-text h1{
@@ -3523,7 +3511,7 @@ body.no-scroll {
         gap: 32px;
         margin-top: 56px;
         transition: top 0.3s ease;
-
+        height: 100%;
     }
 
     .card{
@@ -3606,25 +3594,20 @@ body.no-scroll {
     }
 
     .Technology{
-        max-width: 100vw;
         width: 100%;
-        height: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         position: relative;
-        margin-top: -180px;
-        left: 20px;
+        margin-top: 100px;
     }
     
     .tech-background{
         background: linear-gradient(203deg, #005768 5.95%, #0E1861 48.76%, #0F0031 91.56%);
         filter: blur(100px);
-        max-width: 100vw;
         width: 100%;
-        margin-top: 0px;
-        top: 500px;
+        margin-top: 100px;
         position: absolute;
         z-index: -1;
         overflow: hidden;
@@ -3652,7 +3635,6 @@ body.no-scroll {
         font-style: normal;
         font-weight: 400;
         line-height: 100%; /* 18px */
-
     }
     .tech-text h1{
        color: #EDF1FF;
@@ -3662,10 +3644,9 @@ body.no-scroll {
         font-weight: 400;
         line-height: 170%; /* 54.4px */
         letter-spacing: 1.6px;
-        width: 90%;
     }
     .tech-text p{
-        width: 90%;
+        width: 335px;
         color: var(--text, #E5EBFF);
         font-family: "Noto Sans JP";
         font-size: 14px;
@@ -3707,26 +3688,14 @@ body.no-scroll {
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-right: 50px;
+        margin-right: 0px;
     }
     .tech-img img{
         width: 375px;
         height: 375px;
         flex-shrink: 0;
     }
-    .tech-background{
-        background: linear-gradient(203deg, #005768 5.95%, #0E1861 48.76%, #0F0031 91.56%);
-        filter: blur(100px);
-        width: 100%;
-        height: 100vh;
-        position: absolute;
-        z-index: -1;
-        transform: scale(2.6);
-    }
-    .partner{
-        height: 100%;
-        min-height: 400px;
-    }
+   
    .rectangle{
         width: 100%;
         height: 270px;
@@ -3811,7 +3780,7 @@ body.no-scroll {
         flex-shrink: 0;
     }
     .news{
-        margin-top: 20px;
+        margin-top: -150px;
     }
     .news-background{
         transform: scale(2.6);
@@ -3983,7 +3952,7 @@ body.no-scroll {
     border-radius: 2px;
     }
     .Publication{
-        margin-top: -250px;
+        margin-top: -150px;
     }
     .publication-heading{
         display: flex;
@@ -4130,7 +4099,7 @@ body.no-scroll {
         text-decoration: none;
     }
     .demonstration{
-        margin-top: -300px;
+        margin-top: -200px;
     }
     .demo-heading{
         gap: 8px;
@@ -4162,10 +4131,10 @@ body.no-scroll {
         width: 100%;
         height: 800px;
         display: flex;
-        gap: 32px;
+        gap: 5px;
         transition: transform 0.5s ease;
         scroll-behavior: smooth;
-        margin-left: 40px;
+        margin-left: 20px;
     }
     .demo-container {
         overflow-x: auto;
@@ -4278,7 +4247,7 @@ body.no-scroll {
         border-radius: 50%;
         border: 1px solid #AFB7E2;
         transition: background-color 0.3s;
-        margin-top: -270px;
+        transform: translateY(-30px);
     }
 
     .dot.active {
@@ -4292,13 +4261,11 @@ body.no-scroll {
     
     .contact{
         width: 100%;
-        max-width: 100vw;
         height: 100vh;
         margin-top: 50px;
         background-image: url(img/Union.svg);
         position: relative;
         overflow: hidden;
-        margin-top: -100px;
     }
     .contact-heading{
         display: flex;
@@ -4390,11 +4357,10 @@ body.no-scroll {
     .footer2{
         display: flex;
         width: 100%;
-        max-width: 100vw;
         display: flex;
         flex-direction: column;
         position: absolute;
-        margin-top: -200px;
+        margin-top: -100px;
         gap: 57px;
         padding-bottom: 20px;
     }
@@ -4410,7 +4376,6 @@ body.no-scroll {
         -webkit-backdrop-filter: blur(75px);  
         padding-left: 20px;
         padding-top: 20px;
-        margin-top: -20px;
     }
   
     .logo-part{
@@ -4538,7 +4503,6 @@ body.no-scroll {
 @media (min-width: 479.5px) and (max-width: 767.5px){
      header{
         width: 100%;
-        max-width: 100vw;
         height: 100vh;
         background-image: url(img/Header.svg);
         background-size: cover;       
@@ -4721,8 +4685,6 @@ body.no-scroll {
 
     .about{
         width: 100%;
-        max-width: 100vw;
-        max-width: 100vw;
         overflow: hidden;
         display: flex;
         justify-content: center;
@@ -4911,7 +4873,6 @@ body.no-scroll {
 
     .Technology{
         width: 100%;
-        max-width: 100vw;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -4924,7 +4885,6 @@ body.no-scroll {
         background: linear-gradient(203deg, #005768 5.95%, #0E1861 48.76%, #0F0031 91.56%);
         filter: blur(100px);
         width: 100%;
-        max-width: 100vw;
         margin-top: 100px;
         position: absolute;
         z-index: -1;
@@ -5014,15 +4974,7 @@ body.no-scroll {
         height: 375px;
         flex-shrink: 0;
     }
-    .tech-background{
-        background: linear-gradient(203deg, #005768 5.95%, #0E1861 48.76%, #0F0031 91.56%);
-        filter: blur(100px);
-        width: 100%;
-        height: 100vh;
-        position: absolute;
-        z-index: -1;
-        transform: scale(2.6);
-    }
+ 
     .partner{
        margin-top: -700px;
     }
@@ -5593,8 +5545,6 @@ body.no-scroll {
     
     .contact{
         width: 100%;
-        max-width: 100vw;
-        max-width: 100vw;
         height: 100vh;
         margin-top: 50px;
         background-image: url(img/Union.svg);
@@ -5691,7 +5641,6 @@ body.no-scroll {
 footer{
     padding: 0;
     width: 100%;
-    max-width: 100vw;
     display: flex;
     flex-direction: column;
     gap: 130px;
@@ -5850,7 +5799,6 @@ hr{
 @media (min-width: 768px) and (max-width: 1023.5px){
     header{
         width: 100%;
-        max-width: 100vw;
         background-image: url(img/Header.svg);
         background-size: cover;       
         background-repeat: no-repeat; 
@@ -6030,7 +5978,6 @@ hr{
 
    .about{ 
     width: 100%;
-    max-width: 100vw;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -6226,7 +6173,6 @@ hr{
 }
 .Technology{
     width: 100%;
-    max-width: 100vw;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -6415,7 +6361,6 @@ hr{
 
 .news{
     width: 100%;
-    max-width: 100vw;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -6621,7 +6566,6 @@ hr{
 
 .Publication{
     width: 100%;
-    max-width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -6973,7 +6917,6 @@ hr{
     
     .contact{
         width: 100%;
-        max-width: 100vw;
         height: 80%;
         margin-top: 0px;
         background-image: url(img/Union.svg);
@@ -7069,7 +7012,6 @@ hr{
 footer{
     padding: 0;
     width: 100%;
-    max-width: 100vw;
     height: 200px;
     display: flex;
     flex-direction: column;
@@ -7351,7 +7293,6 @@ header{
 
 .about{
     width: 100%;
-    max-width: 100vw;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -7493,7 +7434,6 @@ header{
 
 .Technology{
     width: 100%;
-    max-width: 100vw;
     height: 100%;
     margin: 0px;
 }
@@ -7524,7 +7464,6 @@ footer{
     margin: -100px 100px 50px;
     padding: 0;
     width: 100%;
-    max-width: 100vw;
     display: flex;
     flex-direction: column;
     gap: 40px;
