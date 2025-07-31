@@ -5795,7 +5795,7 @@ hr{
     margin-left: 0.5rem;
 }
 }
-@media (min-width: 768px) and (max-width: 1023.5px){
+@media (min-width: 768px) and (max-width: 1024px){
     header{
         width: 100%;
         background-image: url(img/Header.svg);
@@ -7170,7 +7170,7 @@ hr{
 
 }
 
-@media (min-width: 1024px) and (max-width: 1440px){
+@media (min-width: 1025px) and (max-width: 1440px){
 header{
     width: 100vw;
     height: 100vh;
