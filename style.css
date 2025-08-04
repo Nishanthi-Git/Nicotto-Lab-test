@@ -1117,7 +1117,7 @@ header{
     flex-shrink: 0;
     cursor: pointer;
 }
-.news-btns button .previous{
+.previous{
     transform: scaleX(-1);;
 }
 
@@ -1307,7 +1307,7 @@ header{
     height: 48px;
     flex-shrink: 0;
 }
-.publication-btns button .previous{
+.pub-previous{
     transform: scaleX(-1);;
 }
 
@@ -7551,3 +7551,4 @@ hr{
 }
 
 }
+
